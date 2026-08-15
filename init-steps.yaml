@@ -1,19 +1,23 @@
 FirstInstance:
+  InstanceName: ZeroSchool
+  DefaultLanguage: en
   Org:
     Name: ZeroSchool
     Human:
       UserName: school
       FirstName: Swastik
       LastName: Patil
-      Email: school@zeroschool.org
+      Email:
+        Address: school@zeroschool.org
+        Verified: true
       Password: Zeroschool@123
       PasswordChangeRequired: false
     Machine:
       Machine:
         Username: admin
         Name: Automatically Initialized IAM_OWNER
-        MachineKey:
-          Type: 1
+      MachineKey:
+        Type: 1
     LoginClient:
       Machine:
         Username: login-client
