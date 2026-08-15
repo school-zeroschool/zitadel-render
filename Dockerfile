@@ -1,4 +1,4 @@
-FROM ghcr.io/zitadel/zitadel:v4.16.0
+FROM ghcr.io/zitadel/zitadel:v3.83.0
 
 EXPOSE 8080
 
