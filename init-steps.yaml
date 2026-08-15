@@ -1,0 +1,23 @@
+FirstInstance:
+  Org:
+    Name: ZeroSchool
+    Human:
+      UserName: school
+      FirstName: Swastik
+      LastName: Patil
+      Email: school@zeroschool.org
+      Password: Zeroschool@123
+      PasswordChangeRequired: false
+    Machine:
+      Machine:
+        Username: admin
+        Name: Automatically Initialized IAM_OWNER
+        MachineKey:
+          Type: 1
+    LoginClient:
+      Machine:
+        Username: login-client
+        Name: Automatically Initialized IAM_LOGIN_CLIENT
+  MachineKeyPath: /tmp/admin.pat
+  PatPath: /tmp/admin.pat
+  LoginClientPatPath: /tmp/login-client.pat
